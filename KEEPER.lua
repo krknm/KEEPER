@@ -5,9 +5,9 @@
 | . \  | |___  | |___  |  __/  | |___  |  _ <
 |_|\_\ |_____| |_____| |_|     |_____| |_| \_\
 تم كتابه وبرمجة السورس بوسطه المطور 
-القيصر كرار 
-WRITING THE SOURCE BY : @LLX8XLL
-CH SOURCE : @KEEPER_CH
+القيصر علي 
+WRITING THE SOURCE BY : @DKBSSK
+CH SOURCE : @DKBSSK
 
 ]]--
 local Ayatol_Korsi = "karrar alqaser develop source Keeper language lua "
@@ -147,7 +147,7 @@ while(true) do
 while true ; do
 
 curl "https://api.telegram.org/bot"$token"/sendmessage" -F
-./TG -s ./KEEPER.lua $@ --bot=$token
+./TG -s ./RANCOAR.lua $@ --bot=$token
 
 sleep 5
 done
@@ -421,10 +421,10 @@ print("\27[0;31m>>"..[[
 ]].."\n\027[00m")
 print("\27[0;35m>>"..[[
 تم كتابه السورس بوسطه المطور 
-القيصر كرار 
-WRITING THE SOURCE BY : @LLX8XLL
-CH SOURCE : @KEEPER_CH 
-- عمر السراي = @blcon
+القيصر علي 
+WRITING THE SOURCE BY : @DKBSSK
+CH SOURCE : @DKBSSK 
+- القيصر علي = @RANCOAR
 
 ]].."\n\027[00m")
       
@@ -10741,7 +10741,7 @@ end
             elseif database:get("lang:gp:" .. msg.chat_id_) then
               send(msg.chat_id_, msg.id_, 1, "🌀║ Bot not found 🎐", 1, "md")
             else
-              send(msg.chat_id_, msg.id_, 1, " 🌀║ لم يتم وضع كليشه المطور", 1, "md")
+              send(msg.chat_id_, msg.id_, 1, " 🌀║ القيصر علي", 1, "md")
             end
           end
         end
@@ -10911,20 +10911,20 @@ if text:match("^رابط حذف$") or text:match("^رابط الحذف$") or tex
 ]]
                 send(msg.chat_id_, msg.id_, 1, text, 1, 'md')
 end end
-		if text:match("^السورس$") or text:match("^مطور السورس$") or text:match("^ياسورس$") or  text:match("^سورس كيبر$") or text:match("^اريد سورس$") then
+		if text:match("^السورس$") or text:match("^مطور السورس$") or text:match("^ياسورس$") or  text:match("^سورس رينكو$") or text:match("^اريد سورس$") then
             if not database:get('lock:add'..msg.chat_id_) then
    local text =  [[
    ‏
    ‏
-🔍┊ اهلاً بك في سورس كيبر❗️
+🔍┊ اهلاً بك في سورس رينكو❗️
 🌀┊ اقوى السورسات العربية..
 
 🔰┊السورس من تطوير✔️
 
-[👷┊القيصر : keePer](T.ME/llX8Xll)
-[🔎┊بوت تواصل الفريق](T.ME/lqlxlqlbot)
+[👷┊القيصر : keePer](T.ME/DKBSSK)
+[🔎┊بوت تواصل الفريق](T.ME/RSMKEKS)
 
-[💲┊ قناٌة السوٰٰرسٰ](T.ME/keeper_ch) 
+[💲┊ قناٌة السوٰٰرسٰ](T.ME/DKBSSK) 
 
 [💢┊ رابط حساب Github](https://github.com/alqaser/KEEPER)								
 ‏
@@ -10935,7 +10935,7 @@ end end
 				if text:match("^الاوامر$") and is_momod(msg.sender_user_id_, msg.chat_id_) then
             if not database:get('lock:add'..msg.chat_id_) then
    local text = [[
-<b>👷‍♂️╎ اهلا بك في سورس كيبر 💯</b>
+<b>👷‍♂️╎ اهلا بك في سورس رينكو 💯</b>
 
 《 الاوامر كالتالـي : ✔️》
    
@@ -10959,7 +10959,7 @@ end end
    if text:match("^م1$") and is_momod(msg.sender_user_id_, msg.chat_id_) then
             if not database:get('lock:add'..msg.chat_id_) then
    local text = [[
-<b>👷‍♂️╎ اهلا بك في سورس كيبر 💯</b>
+<b>👷‍♂️╎ اهلا بك في سورس رينكو 💯</b>
 
 ※ ╎ الآوامر الحمايۿ كالتالي :- 
 《 استخدم (قفل\فتح) + الامر 》
@@ -10997,7 +10997,7 @@ end end
 if text:match("^م2$") and is_momod(msg.sender_user_id_, msg.chat_id_) then
             if not database:get('lock:add'..msg.chat_id_) then
    local text = [[
-<b>👷‍♂️╎ اهلا بك في سورس كيبر 💯</b>
+<b>👷‍♂️╎ اهلا بك في سورس رينكو 💯</b>
 
 (( اوامر الرفع كالتالي : ✔️))
 
@@ -11027,7 +11027,7 @@ if text:match("^م2$") and is_momod(msg.sender_user_id_, msg.chat_id_) then
   if text:match("^م3$") and is_momod(msg.sender_user_id_, msg.chat_id_) then
             if not database:get('lock:add'..msg.chat_id_) then
    local text = [[
-<b>👷‍♂️╎ اهلا بك في سورس كيبر 💯</b>
+<b>👷‍♂️╎ اهلا بك في سورس رينكو 💯</b>
 
 (( اوامر الحظر كالتالي : ✔️))
 
@@ -11062,7 +11062,7 @@ if text:match("^م2$") and is_momod(msg.sender_user_id_, msg.chat_id_) then
   if text:match("^م4$") and is_momod(msg.sender_user_id_, msg.chat_id_) then
             if not database:get('lock:add'..msg.chat_id_) then
    local text = [[
-<b>👷‍♂️╎ اهلا بك في سورس كيبر 💯</b>
+<b>👷‍♂️╎ اهلا بك في سورس رينكو 💯</b>
 
 (( اوامر العرض كالتالي : ✔️))
 
@@ -11102,7 +11102,7 @@ if text:match("^م2$") and is_momod(msg.sender_user_id_, msg.chat_id_) then
   if text:match("^م6$") and is_momod(msg.sender_user_id_, msg.chat_id_) then
             if not database:get('lock:add'..msg.chat_id_) then
    local text = [[
-<b>👷‍♂️╎ اهلا بك في سورس كيبر 💯</b>
+<b>👷‍♂️╎ اهلا بك في سورس رينكو 💯</b>
 
 (( اوامر المطور كالتالي : ✔️)) 
 
@@ -11145,7 +11145,7 @@ if text:match("^م2$") and is_momod(msg.sender_user_id_, msg.chat_id_) then
 if text:match("^م5$") and is_momod(msg.sender_user_id_, msg.chat_id_) then
             if not database:get('lock:add'..msg.chat_id_) then
    local text = [[
-<b>👷‍♂️╎ اهلا بك في سورس كيبر 💯</b>
+<b>👷‍♂️╎ اهلا بك في سورس رينكو 💯</b>
 
 (( اوامر الردود كالتالي : ✔️))
 
@@ -11164,7 +11164,7 @@ if text:match("^م5$") and is_momod(msg.sender_user_id_, msg.chat_id_) then
 if text:match("^م7$") and is_momod(msg.sender_user_id_, msg.chat_id_) then
             if not database:get('lock:add'..msg.chat_id_) then
    local text = [[
-<b>👷‍♂️╎ اهلا بك في سورس كيبر 💯</b>
+<b>👷‍♂️╎ اهلا بك في سورس رينكو 💯</b>
 
 (( اوامر الاخرى كالتالي
 
@@ -11220,14 +11220,14 @@ if text:match("^help$") and is_momod(msg.sender_user_id_, msg.chat_id_) then
 
 🔸 *a3* : لعرض الاوامر الاخرى
 ━─────────━
-✸. *sudo source* : @llX8Xll
+✸. *sudo source* : @DKBSSK
 ]]
                 send(msg.chat_id_, msg.id_, 1, text, 1, 'md')
    end 
   if text:match("^a2$") and is_momod(msg.sender_user_id_, msg.chat_id_) then
    
    local text = [[
- *Hello in source KEEPER*🏌️
+ *Hello in source RANCOAR*🏌️
 ━─────────━
 اوامر الحظر :
 
@@ -11246,7 +11246,7 @@ if text:match("^help$") and is_momod(msg.sender_user_id_, msg.chat_id_) then
 
 🔹 unmute : الغاء الكتم 
 ━─────────━
-✸. *sudo source* : @llX8Xll
+✸. *sudo source* : @DKBSSK
 
 ]]
                 send(msg.chat_id_, msg.id_, 1, text, 1, 'md')
@@ -11254,7 +11254,7 @@ if text:match("^help$") and is_momod(msg.sender_user_id_, msg.chat_id_) then
 				 if text:match("^aa$") and is_momod(msg.sender_user_id_, msg.chat_id_) then
    
    local text = [[
- *Hello in source KEEPER*🏌️
+ *Hello in source RANCOAR*🏌️
 ━─────────━
 اوامر الحمايه [antispam] :
 استخدم *lock* + الامر للقفل or
@@ -11291,14 +11291,14 @@ if text:match("^help$") and is_momod(msg.sender_user_id_, msg.chat_id_) then
 ✸ `Contact`
 ✸ `Sticker`
 ━─────────━
-✸. *sudo source* : @llX8Xll
+✸. *sudo source* : @DKBSSK
 ]]
                 send(msg.chat_id_, msg.id_, 1, text, 1, 'md')
    end 
  if text:match("^a3$") and is_momod(msg.sender_user_id_, msg.chat_id_) then
    
    local text = [[
- *Hello in source KEEPER*🏌️
+ *Hello in source RANCOAR*🏌️
 ━─────────━
 اوامر الاخرى : 
 
@@ -11330,14 +11330,14 @@ if text:match("^help$") and is_momod(msg.sender_user_id_, msg.chat_id_) then
 ▪️ filter : لمنع كلمه
 ▪️ unfilter :الغاء منع
 ━─────────━
-✸. *sudo source* : @llX8Xll
+✸. *sudo source* : @DKBSSK
 ]]
                 send(msg.chat_id_, msg.id_, 1, text, 1, 'md')
    end
   if text:match("^a1$") and is_momod(msg.sender_user_id_, msg.chat_id_) then
    
    local text = [[
- *Hello in source KEEPER*🏌️
+ *Hello in source RANCOAR*🏌️
 ━─────────━
 اوامر  الرفع :
 ✪ setowner : رفع مدير 
@@ -11357,7 +11357,7 @@ if text:match("^help$") and is_momod(msg.sender_user_id_, msg.chat_id_) then
 ✪ remvip : لتنزل العضو
 
 ━─────────━
-✸. *sudo source* : @llX8Xll
+✸. *sudo source* : @DKBSSK
 ]]
                 send(msg.chat_id_, msg.id_, 1, text, 1, 'md')
    end  
